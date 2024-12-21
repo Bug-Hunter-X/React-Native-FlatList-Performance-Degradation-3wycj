@@ -1,0 +1,1 @@
+This bug occurs when using the FlatList component in React Native with a large dataset.  The performance becomes sluggish and the app may freeze. This is because FlatList renders all items at once, even though only a portion is visible on the screen.  Additionally, improper key extraction can lead to inefficient re-renders.
